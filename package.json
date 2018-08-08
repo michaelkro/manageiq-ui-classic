@@ -8,7 +8,8 @@
     "test:watch": "jest --watchAll",
     "test:current": "jest --watch",
     "lint": "eslint -c app/javascript/.eslintrc.js --fix app/javascript || exit 0",
-    "stylelint": "stylelint 'app/**/*css'"
+    "stylelint": "stylelint 'app/**/*css'",
+    "dev-server": "WEBPACK_EXCLUDE_NODE_MODULES=1 bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
